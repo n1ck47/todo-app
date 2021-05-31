@@ -33,6 +33,10 @@
     display: flex;
 }
 
+.reset:hover{
+    cursor: pointer;
+}
+
 .reset > div{
     background-color: #E9F9F0;
 }
@@ -60,4 +64,25 @@
 
 .input-task::placeholder{
     color: #BAC3FC;
+}
+
+.filters{
+    background-color:white;
+    margin-top: 25px;
+    border-bottom: 1px solid #0000002e;
+    padding-bottom: 8px;
+    display: flex;
+}
+
+.filters > div{
+    background-color: #EDE8FB;
+    color: #876BE5;
+    padding:3px 5px;
+    margin-right: 10px;
+    border-radius: 3px;
+    font-weight: 300;
+}
+
+.filters > div:hover{
+    cursor: pointer;
 }
